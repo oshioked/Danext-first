@@ -1,6 +1,7 @@
 .header{
     max-height: 100vh;
     position: relative;
+    scroll-snap-align: start;
 
     .headerOverlay{
         position: absolute;

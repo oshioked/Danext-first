@@ -7,7 +7,7 @@ const FullImageHeader = () =>{
                 <div className = {style.scrollMessage}>Scroll for more</div>
             </div>
             <div className = {style.bgImgHolder}>
-                <img src = '/images/homeHeader.png' alt = 'home header'/>
+                <img src = '/images/home/homeHeader.png' alt = 'home header'/>
             </div>
         </header>
     )
