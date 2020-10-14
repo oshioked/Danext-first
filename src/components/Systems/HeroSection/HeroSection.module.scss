@@ -1,0 +1,31 @@
+.heroSection{
+    height: 100vh;
+    display: flex;
+
+    .imageHalf, .detailHalf{
+        height: 100%;
+    }
+
+    .imageHalf{
+        width: 65%;
+
+        .imageContainer{
+            width: 100%;
+            height: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+            };;
+        }
+    }
+
+    .detailHalf{
+        width: 35%;
+        display: flex;
+        padding: 6%;
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+}

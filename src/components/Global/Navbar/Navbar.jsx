@@ -10,7 +10,10 @@ const Navbar = props =>{
                 </a>
             </Link>
             <ul className = {style.navLinks}>
-                <li>systems</li>
+                <Link href = "/systems/cube">
+                    <a><li>systems</li></a>
+                </Link>
+                
                 <li>solutions</li>
                 <li>technology</li>
             </ul>

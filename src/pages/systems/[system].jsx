@@ -1,5 +1,8 @@
 import Styles from './systems.module.scss';
 import {useRouter} from 'next/router'
+import HeroSection from '../../components/Systems/HeroSection/HeroSection';
+import Navbar from '../../components/Global/Navbar/Navbar';
+import Footer from '../../components/Global/Footer/Footer';
 
 const Systems = props =>{
     console.log(props.id)
@@ -7,7 +10,13 @@ const Systems = props =>{
 
     return(
         <div className = {Styles.page}>
-            <h1>{router.query.system}</h1>
+            <Navbar/>
+            <HeroSection/>
+            <HeroSection/>
+            <HeroSection/>
+            <HeroSection/>
+            <HeroSection/>
+            <Footer/>
         </div>
     )
 }
